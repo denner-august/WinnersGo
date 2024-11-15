@@ -1,7 +1,13 @@
+import { Header } from "./components/header/header";
+
 export default function Home() {
   return (
     <div>
-      <h1>primeira pagina da lading page</h1>
+      <Header
+        title="Transformamos cliques em "
+        subtitle=" e construa uma presença  marcante com um parceiro focado em resultados e no "
+        CTA="quero mais resultados"
+      />
     </div>
   );
 }
