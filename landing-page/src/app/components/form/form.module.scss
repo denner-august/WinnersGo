@@ -1,0 +1,29 @@
+.container {
+  width: 40vw;
+
+  input {
+    width: 100%;
+  }
+
+  input[name="Email"] {
+    font-weight: bold;
+    font-size: 1.1rem;
+    border: 0.1rem solid white;
+  }
+
+  input[name="submit"] {
+    background-color: #d91149;
+    font-weight: bold;
+    cursor: pointer;
+
+    border: 0.1rem solid white;
+
+    &:hover {
+      background-color: #dd2257;
+    }
+
+    &:active {
+      background-color: #d80541;
+    }
+  }
+}
