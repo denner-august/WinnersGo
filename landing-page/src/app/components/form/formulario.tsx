@@ -17,14 +17,13 @@ export function Form() {
       <input
         {...register("Email", { required: true })}
         placeholder="Seu melhor email"
-        value="denner.augusto90@gmail.com"
       />
 
       <input
         name="submit"
         type="submit"
         alt="enviar"
-        value="FAZER MEU CADASTRO"
+        value="Vamos Tansformar Meus Cliques em Resultados"
       />
     </form>
   );
