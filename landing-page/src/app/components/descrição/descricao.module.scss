@@ -1,0 +1,25 @@
+.Container {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+
+  h2 {
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    width: 80vw;
+    text-align: center;
+  }
+}
+
+.beneficios {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+
+  width: 100%;
+  height: auto;
+  margin-bottom: 2rem;
+}
