@@ -13,17 +13,22 @@ export function Form() {
   const onSubmit: SubmitHandler<IFormInput> = (data) => console.log(data);
 
   return (
-    <form className={styles.container} onSubmit={handleSubmit(onSubmit)}>
+    <form
+      className={styles.container}
+      onSubmit={handleSubmit(onSubmit)}
+      id="formulario-01"
+    >
       <input
         {...register("Email", { required: true })}
         placeholder="Seu melhor email"
+        name="email"
       />
 
       <input
-        name="submit"
+        name="button-envio-form"
         type="submit"
         alt="enviar"
-        value="Vamos Tansformar Meus Cliques em Resultados"
+        value="Eu quero tansformar meus cliques em resultados"
       />
     </form>
   );

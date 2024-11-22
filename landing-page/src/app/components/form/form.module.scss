@@ -1,17 +1,13 @@
 .container {
   width: 40vw;
 
-  input {
-    width: 100%;
-  }
-
-  input[name="Email"] {
+  input[name="email"] {
     font-weight: bold;
     font-size: 1.1rem;
     border: 0.1rem solid white;
   }
 
-  input[name="submit"] {
+  input[name="button-envio-form"] {
     background-color: #d91149;
     font-weight: bold;
     cursor: pointer;
@@ -25,5 +21,14 @@
     &:active {
       background-color: #d80541;
     }
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  .container {
+    width: 100%;
+    height: auto;
+
+    padding: 3rem;
   }
 }
