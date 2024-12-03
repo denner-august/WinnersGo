@@ -1,0 +1,43 @@
+.Container {
+  border-radius: 0.5rem;
+  border-width: 0.2rem;
+  border-color: #415e9b;
+  border-style: solid;
+
+  width: 35rem;
+
+  margin: 3rem 0rem;
+
+  p {
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 1.5rem;
+  }
+
+  ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+    padding: 1rem;
+    height: auto;
+    min-height: 15rem;
+    list-style-type: none;
+
+    li {
+      display: flex;
+      align-items: center;
+      font-size: 1.3rem;
+
+      margin: 1rem 0rem;
+
+      img {
+        object-fit: fill;
+        height: 2rem;
+        width: auto;
+
+        margin: 0rem 0.3rem;
+      }
+    }
+  }
+}
