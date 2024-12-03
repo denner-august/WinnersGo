@@ -6,6 +6,7 @@ import { Plataformas } from "./components/plataformas/plataformas";
 import { Indicador } from "./tools/indicador/arrow-down";
 
 import styles from "./page.module.scss";
+import { Servicos } from "./components/serviços/servicos";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <Divulgacao />
       <Indicador />
       <Plataformas />
+      <Servicos />
       <div className={styles.Container}>
         <Form />
       </div>
