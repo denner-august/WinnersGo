@@ -1,0 +1,16 @@
+.Container {
+  h3 {
+    text-align: center;
+    font-size: 2rem;
+  }
+
+  .sectionContainer {
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+    flex-wrap: wrap;
+  }
+}
