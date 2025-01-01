@@ -14,24 +14,24 @@ export function Descricao() {
       </h2>
       <div className={styles.beneficios}>
         <Benenficios
-          title=" Atrair Leads Que Realmente Importam"
+          title=" Atrair leads que realmente importam"
           icon={leads}
-          description="Conecte-se com pessoas interessadas nos seus produtos ou serviços e transforme visitantes em clientes qualificados."
+          description="Conecte-se com pessoas interessadas nos seus produtos ou serviços e transforme visitantes em clientes qualificados"
         />
         <Benenficios
-          title="economizar Tempo e Dinheiro"
+          title="Economizar tempo e dinheiro"
           icon={tempo}
-          description="Deixe a gestão de tráfego comigo e libere seu tempo para focar no que realmente importa: fazer o seu negócio crescer."
+          description="Deixe a gestão de tráfego comigo e libere seu tempo para focar no que realmente importa: fazer o seu negócio crescer"
         />
         <Benenficios
-          title="Destacar Sua Marca e Identidade"
+          title="Destacar Sua Marca e identidade"
           icon={marca}
           description="Fortaleça a presença do seu negócio e conquiste reconhecimento no mercado com campanhas direcionadas"
         />
         <Benenficios
-          title="Aumentar Suas Vendas e Resultados"
+          title="Aumentar suas vendas e resultados"
           icon={vendas}
-          description="Transforme cada investimento em tráfego pago em crescimento real para o seu faturamento."
+          description="Transforme cada investimento em tráfego pago em crescimento real para o seu faturamento"
         />
       </div>
     </div>

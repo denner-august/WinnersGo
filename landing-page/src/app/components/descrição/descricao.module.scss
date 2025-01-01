@@ -19,11 +19,23 @@
 
 .beneficios {
   display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
 
-  width: 100%;
-  height: auto;
-  margin-bottom: 2rem;
+  div {
+    border-radius: 0.1rem;
+    flex: 1 1 calc(50% - 2rem); /* Cada card ocupa 50% da largura menos o gap */
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .Container {
+    .beneficios {
+      margin: 0rem 2rem;
+      div {
+        flex: 1 1 100%;
+      }
+    }
+  }
 }

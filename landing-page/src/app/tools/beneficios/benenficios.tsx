@@ -1,6 +1,3 @@
-"use client";
-
-import { useState } from "react";
 import Image from "next/image";
 import styles from "./beneficios.module.scss";
 import { StaticImport } from "next/dist/shared/lib/get-img-props";
@@ -16,24 +13,12 @@ export function Benenficios({
   icon,
   description = "teste",
 }: BenenficiosProps) {
-  const [isFlipped, setIsFlipped] = useState(false);
-
-  const handleFlip = () => setIsFlipped(!isFlipped);
-
   return (
-    <div
-      className={`${styles.card} ${isFlipped ? styles.flipped : ""}`}
-      onClick={handleFlip}
-    >
-      <div className={`${styles.cardInner}`}>
-        <div className={styles.front}>
-          {title ? <p>{title}</p> : null}
-          <Image src={icon} alt={`${title} icon`} width={50} height={50} />
-        </div>
-        <div className={styles.back}>
-          <p>{description}</p>
-        </div>
-      </div>
+    <div className={styles.card}>
+      <Image src={icon} alt={`${title} icon`} width={60} height={60} />
+      {title ? <p>{title}</p> : null}
+
+      <p>{description}</p>
     </div>
   );
 }

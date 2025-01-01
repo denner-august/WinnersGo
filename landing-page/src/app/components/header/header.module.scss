@@ -7,7 +7,8 @@
   height: auto;
   width: 100%;
 
-  padding: 15vh 0rem;
+  // padding: 15vh 0rem;
+  padding-top: 5rem;
 
   span {
     font-size: 1.5rem;
@@ -77,6 +78,14 @@
       background-color: #d91149;
       border: none;
       color: #000;
+    }
+  }
+}
+
+@media screen and (max-width: 816px) {
+  .container {
+    h2 {
+      width: 100%;
     }
   }
 }

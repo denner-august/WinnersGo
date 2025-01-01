@@ -28,7 +28,7 @@ export function Form() {
         name="button-envio-form"
         type="submit"
         alt="enviar"
-        value="Eu quero tansformar meus cliques em resultados"
+        value="Fale conosco agora"
       />
     </form>
   );

@@ -14,7 +14,7 @@ export function Header() {
         <span> crescimento contínuo do seu negócio</span>
       </h2>
       <p>
-        Descubra Como Podemos <span>Transformar</span> Seu Tráfego em
+        Descubra Como Podemos <span>transformar</span> seu tráfego em
         <span> Resultados</span>
       </p>
 

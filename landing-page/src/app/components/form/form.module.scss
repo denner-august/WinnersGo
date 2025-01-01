@@ -4,7 +4,7 @@
   input[name="email"] {
     font-weight: bold;
     font-size: 1.1rem;
-    border: 0.1rem solid white;
+    border: 0.1rem solid #ffff;
   }
 
   input[name="button-envio-form"] {
@@ -13,6 +13,7 @@
     cursor: pointer;
 
     border: 0.1rem solid white;
+    color: #fff;
 
     &:hover {
       background-color: #dd2257;

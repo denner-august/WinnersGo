@@ -10,9 +10,10 @@ export function Plataformas() {
   return (
     <div className={styles.Container}>
       <h3>
-        coloque <span>sua empresa</span> onde a{" "}
+        coloque <span>sua empresa</span> onde a {""}
         <span>atenção do seu publico</span> está
       </h3>
+
       <div className={styles.plataformas}>
         <Benenficios
           icon={facebook}
